@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABD</title>
+   <link rel="stylesheet" href="s.css">
+   <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class ="container"> 
+            <nav>
+                <img src="A.png" class="logo" width=150px 15%> 
+                <ul id="sidemenu">
+                    <li><a href=#header>HOME</a></li>
+                    <li><a href=#about>ABOUT</a></li>
+                    <li><a href=#service>ACHIEVEMENTS</a></li>
+                    <li><a href=#portfolio>PORTFOLIO</a></li>
+                    <li><a href=#contact>CONTACTS</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fs-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p5>GAME DESIGNER</p5> -->
+                <h1>Hi, myself <span>BHARANI</span><br>DHARAUN.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2023-06-10 at 15.14.39.jpg" ></div>
+                </div>
+                <div class="about-col-2">
+                       <h1 class="sub-title">ABOUT ME</h1> 
+                       <p>As an undergraduate student deeply passionate
+                        about full-stack development, machine
+                        learning, AI, and software development, I am
+                        eagerly seeking opportunities where I can apply
+                        my skills and continue to learn and grow. My
+                        enthusiasm, coupled with my dedication to
+                        smart work, positions me as an asset ready to
+                        contribute effectively to any team or project.
+                        </p>
+                    
+                    <div class="tab-titles ">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                       
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Web development</span>
+                                <br>HTML,CSS,JS,REACT</li>
+                                <li><span>App Development</span>
+                                <br>Android Studio</li>
+                        <li><span>Game Development</span><br>Unity</li>
+                        
+                    <li><span>Machine Learning</span>
+                    <br>OpenCv(python and c++)</li>
+                </ul>
+                    </div>
+                   
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li>
+                                <span>2004-2022</span>
+                                <br>Holycross school of matriculation<br>
+                                SSLC PERCENTAGE:94.4% <br>
+                                HSC PERCENTAGE:88.5%
+
+
+                            </li>
+                            <li><span>2022-2026</span><br>BIT <br>
+                            CGPA:8.45 <br>
+                        </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------services------------------>    
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My achievements</h1> 
+            <div class="services-list">
+                
+              <div>
+                <i class="fas fa-code"></i>
+              
+    <p>SIH'23 WINNERS</p>
+    <img class="SIHIMG" src="WhatsApp Image 2024-01-27 at 13.44.04_6a886dcc.jpg" width="60%">
+    <p>BIT HACKS'23 WINNERS</p>
+    <img src="WhatsApp Image 2024-01-27 at 14.19.17_452bc809.jpg " width="70%">
+                  </span>
+              </div>  
+               
+            </div>
+
+        </div>
+    </div>
+    <!-------------------portfolio-------------->
+    <div id="portfolio">
+       <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="WhatsApp Image 2023-06-11 at 00.14.15.jpg" >
+                <div class="layer">
+                    <h3>
+                        FPS game using unity
+                    </h3>
+<p>this is a game created by me</p>
+
+                </div>
+            </div>
+            <div class="work1">
+                <img src="Screenshot 2024-01-30 143803.png" >
+                <div class="layer">
+                    <h3>
+                        Workout tracker
+                    </h3>
+<p id="pw">Which monitors the users exercise using MediaPipe</p>
+
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+<!-----------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> bharani2624baru@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9994359099</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100009573361030"><i class="fab fa-facebook"></i></a>
+                   
+                    <a href="https://www.instagram.com/mr_boxer2624/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/bharanidharaun-a-443b4a256/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="ABD RESUME.pdf" download class="btn btn2"> Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                    
+                </form>
+                <span id="msg">Hi this is ABD</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by <span>"ABD"</span><i class="fas fa-dinsaur"></i></p>
+    </div>
+    </div> 
+</div>
+
+
+
+
+
+
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents" );
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+
+    }
+
+   </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+
+</script>
+
+  <div id="google_translate_element"><p>Hi I am ABD and I have created this for translation </p></div>
+
+  <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+  </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby7qdx1zMG9er45cNXHEuJRwUTKPm2fog1hvv_K1UtrSW5PMwQ0Z_dvRcX1l9yPAPkZgQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+</body>
+</html> 
